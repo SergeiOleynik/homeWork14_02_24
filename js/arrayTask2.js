@@ -4,7 +4,7 @@ let arrayA = [1, 2, 3, 11, 1, 4, 5, 5, 7, 8, 9, 6],
 
 arrayA = arrayA.concat(arrayB);
 
-alert("Завдання № 2");
+alert("Масив, завдання № 2");
 alert(`масив до перетворення : ${arrayA}`);
 
 for(let i=1, j; i<arrayA.length; i++){

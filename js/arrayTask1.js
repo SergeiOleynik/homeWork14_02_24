@@ -2,7 +2,7 @@ const wordsArray = ["apple", "banana", "orange", "kiwi", "grape"],
       n = 5;
 let   newArray = [];
 
-alert("Завдання № 1");
+alert("Масив, завдання № 1");
 alert(`масив до перетворення : ${wordsArray}`);
 
 for(const arr of wordsArray){
