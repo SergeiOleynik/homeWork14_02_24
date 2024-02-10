@@ -4,11 +4,16 @@ let arrayA = [1, 2, 3, 11, 1, 4, 5, 5, 7, 8, 9, 6],
 
 arrayA = arrayA.concat(arrayB);
 
+alert("Масиви, завдання 2 :");
+alert(`два масиви чисел - ${arrayA}`);
+
 for(let i=1, j; i<arrayA.length; i++){
   j = arrayA.indexOf(i); 
   if(j >= 0) arrayB[i-1] = arrayA[j];  
 }
-console.log(arrayB);
+
+alert(`новий масив, де кожен елемент унікальний - ${arrayB}`);
+
 
 
 
